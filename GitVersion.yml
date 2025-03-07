@@ -2,3 +2,4 @@ workflow: GitFlow/v1
 branches:
   release:
     mode: ContinuousDelivery
+    regex: ^releases?(?:[/-](?<BranchName>.+))?$
